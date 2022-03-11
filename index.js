@@ -16,10 +16,10 @@ client.on("ready", () => {
         .setName("twitch")
         .setUrl("https://twitch.tv/SealedSaucer")
         .setType("STREAMING")
-        .setApplicationId("CLIENT_ID")
+        .setApplicationId("951823233701793803")
         .setAssetsLargeImage(image.id)
-        .setAssetsLargeText("youtube.com/SealedSaucer")
-        .setDetails("Subscribe!")
+        .setAssetsLargeText("NARUTO")
+        .setDetails("Watching Naruto")
  
         client.user.setPresence(presence.toDiscord())
     }).catch(console.error)
